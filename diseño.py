@@ -7,7 +7,7 @@ from models.simulacion import metricas_lazo
 
 NOMBRES = {'1': '1. Lazo abierto', '2': '2. PID', '3': '3. Abierto + viento', '4': '4. PID + viento'}
 COLORES = {'1': '#00d2d3', '2': '#1dd1a1', '3': '#ff9f43', '4': '#feca57'}
-VENTANA = 250
+VENTANA = 600
 
 def _streaks(xs, H, phase, largo, h_bola=None, r_bola=0.0):
     X, Y = [], []

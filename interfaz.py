@@ -178,5 +178,5 @@ def serve_layout():
             construir_modulo_matematico()
         ]),
 
-        dcc.Interval(id='sim-interval', interval=350, n_intervals=0, disabled=True)
+        dcc.Interval(id='sim-interval', interval=600, n_intervals=0, disabled=True)
     ], fluid=True, className="bg-light pb-5")
